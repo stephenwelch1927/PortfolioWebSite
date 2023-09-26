@@ -1,9 +1,12 @@
 import React from "react";
 import Navbar from "./components/Index";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { useEffect } from "react";
 import './App.css';
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Navbar/Contact";
+import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
 function App() {
   useEffect(() => {
@@ -13,9 +16,11 @@ function App() {
   return (
     <Router>
        <Navbar />
-      <BrowserRouter>
-     
-      </BrowserRouter>
+      <Switch>
+        <Route path='/about' component={About} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
     </Router>
   );
 }

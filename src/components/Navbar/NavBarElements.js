@@ -1,6 +1,9 @@
+import {AiOutlineLinkedin} from 'react-icons/ai';
+import {BsGithub} from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
+import {HiOutlineMail} from 'react-icons/hi';
   
 export const Nav = styled.nav`
   background: #DDD3D1;
@@ -12,22 +15,67 @@ export const Nav = styled.nav`
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
+
+export const Linked = styled(AiOutlineLinkedin) `
+    display: flex;    
+    height: 75px;
+    width: 75px; 
+    color: blue;
+    justify-content: space-between;
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #808080;
+      }  
+    
+    
+`;
+
+export const GitHub = styled(BsGithub)`
+    display: flex;
+    height: 75px;
+    width: 60px;
+    justify-content: space-between;  
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #808080;
+      }
+`;
+
+export const Mail = styled(HiOutlineMail)`
+    display: flex;
+    height: 75px;
+    width: 60px;
+    justify-content: space-between;  
+    margin-left: 20px;
+`;
   
 export const NavLink = styled(Link)`
+  margin: 60px;
+  font-size: 30px;
   color: #808080;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 2rem;
   height: 100%;
   cursor: pointer;
   &.active {
     color: #000000;
   }
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #808080;
+  } 
 `;
   
-export const Bars = styled(FaBars)`
-  display: none;
+export const Bars = styled(FaBars)`  
+display: none;
   color: #808080;
   @media screen and (max-width: 768px) {
     display: block;
@@ -67,7 +115,7 @@ export const NavBtn = styled.nav`
 `;
   
 export const NavBtnLink = styled(Link)`
-  border-radius: 4px;
+  border-radius: 6px;
   background: #808080;
   padding: 10px 22px;
   color: #000000;

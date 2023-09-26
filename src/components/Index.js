@@ -6,6 +6,10 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
+  Linked,
+  GitHub,
+  Mail,
+
 } from './Navbar/NavBarElements';
   
 const Navbar = () => {
@@ -18,27 +22,24 @@ const Navbar = () => {
           <NavLink to='/about' activeStyle>
             About
           </NavLink>
-          <NavLink to='/events' activeStyle>
-            Events
+          <NavLink to='/projects' activeStyle>
+            Projects
           </NavLink>
-          <NavLink to='/annual' activeStyle>
-            Annual Report
-          </NavLink>
-          <NavLink to='/team' activeStyle>
-            Teams
-          </NavLink>
-          <NavLink to='/blogs' activeStyle>
-            Blogs
-          </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
+          <NavLink to='/education' activeStyle>
+            Education
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+          <a href='https://www.linkedin.com/in/stephen-welch-web-developer'><Linked></Linked></a>
+          <a href='https://github.com/stephenwelch1927'><GitHub></GitHub></a>
+          <NavLink to='/contact'>
+            <Mail></Mail>
+          </NavLink>
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-        </NavBtn>
+       
+
+        
+    
       </Nav>
     </>
   );
