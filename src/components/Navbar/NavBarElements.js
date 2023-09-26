@@ -50,18 +50,20 @@ export const Mail = styled(HiOutlineMail)`
     display: flex;
     height: 75px;
     width: 60px;
+    margin: 20px;
+    color: black;
     justify-content: space-between;  
     margin-left: 20px;
 `;
   
 export const NavLink = styled(Link)`
-  margin: 60px;
   font-size: 30px;
   color: #808080;
   display: flex;
+  justify-content: space-between;  
   align-items: center;
   text-decoration: none;
-  padding: 0 2rem;
+  padding: 0 1rem;
   height: 100%;
   cursor: pointer;
   &.active {
@@ -102,17 +104,6 @@ export const NavMenu = styled.div`
   }
 `;
   
-export const NavBtn = styled.nav`
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
-  /* Third Nav */
-  /* justify-content: flex-end;
-  width: 100vw; */
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
   
 export const NavBtnLink = styled(Link)`
   border-radius: 6px;

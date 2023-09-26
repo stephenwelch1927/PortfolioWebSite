@@ -11,6 +11,8 @@ import {
   Mail,
 
 } from './Navbar/NavBarElements';
+
+import './NavLayout.css';
   
 const Navbar = () => {
   return (
@@ -18,7 +20,7 @@ const Navbar = () => {
       <Nav>
         <Bars />
   
-        <NavMenu>
+        <NavMenu id='navMenu'>
           <NavLink to='/about' activeStyle>
             About
           </NavLink>
@@ -30,11 +32,13 @@ const Navbar = () => {
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-          <a href='https://www.linkedin.com/in/stephen-welch-web-developer'><Linked></Linked></a>
+          
+          <a href='https://www.linkedin.com/in/stephen-welch-web-developer'><Linked id='layout'></Linked></a>
           <a href='https://github.com/stephenwelch1927'><GitHub></GitHub></a>
           <NavLink to='/contact'>
             <Mail></Mail>
           </NavLink>
+    
         </NavMenu>
        
 
