@@ -1,32 +1,34 @@
 import React from "react";
-import { useState } from "react";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 function Contact(){
-    const [formData, setFormData] = useState({name: "", email:"", message:""});
+    const form = useRef();
 
-    const handleChange = (event) => {
-        const {name, value} = event.target;
-        setFormData((prevFormData) => ({...prevFormData, [name]: value}));
-    };
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_63p8loa', 'template_1105ra9', form.current, 'd2D3tnqeCHG01A1Gi')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        alert(`Name: ${formData.name}, Email: ${formData.email}, Message: ${formData.message}`
-        );
+        e.target.reset();
     };
-    return(
-        <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange}/>
   
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange}/>
-  
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" value={formData.message} onChange={handleChange}/>
-  
-        <button type="submit">Submit</button>
+    return (
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="from_name" />
+        <label>Email</label>
+        <input type="email" name="from_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
       </form>
+    
     );
 }
 
