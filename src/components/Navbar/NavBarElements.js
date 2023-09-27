@@ -17,6 +17,7 @@ export const Nav = styled.nav`
 `;
 
 export const Linked = styled(AiOutlineLinkedin) `
+    margin-left: 300px;
     display: flex;    
     height: 75px;
     width: 75px; 
@@ -58,7 +59,7 @@ export const Mail = styled(HiOutlineMail)`
   
 export const NavLink = styled(Link)`
   font-size: 30px;
-  color: #808080;
+  color: black;
   display: flex;
   justify-content: space-between;  
   align-items: center;
@@ -93,7 +94,7 @@ display: none;
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
+  
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
