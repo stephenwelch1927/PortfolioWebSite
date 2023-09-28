@@ -12,7 +12,7 @@ import {
 
 } from './Navbar/NavBarElements';
 
-import './NavLayout.css';
+import './styles/NavLayout.css';
   
 const Navbar = () => {
   return (
