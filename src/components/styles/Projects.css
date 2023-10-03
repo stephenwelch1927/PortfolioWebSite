@@ -5,3 +5,26 @@
     box-shadow: 0cap;
     color: black;
 }
+.carousel {
+    height: 300px;
+    width: 600px;
+    align-items: center;
+}
+
+.carousel-size {
+    top: 100px;
+    margin-left: 500px;
+    width: 600px;
+    height: 400px;
+}
+
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    margin-left: 100px;
+    font-family: "Lucida Console", "Courier New", monospace; 
+}

@@ -6,15 +6,3 @@
     color: black;
 }
 
-.carousel {
-    height: 200px;
-    width: 500px;
-    align-items: center;
-}
-
-.carousel-size {
-    top: 100px;
-    margin-left: 600px;
-    width: 500px;
-    height: 300px;
-}
