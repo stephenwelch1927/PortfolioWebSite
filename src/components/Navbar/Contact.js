@@ -20,6 +20,8 @@ function Contact(){
     };
   
     return (
+     <div>
+      <h1 className="h1-style">Contact</h1>
       <form ref={form} onSubmit={sendEmail}>
         
         <label>Name: </label>
@@ -37,6 +39,7 @@ function Contact(){
         <br></br>
         <input type="submit" value="Send Message" />
       </form>
+      </div>
     
     );
 }

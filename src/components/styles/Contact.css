@@ -1,5 +1,13 @@
+.h1-style{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  font-size: 70px;
+  box-shadow: 0cap;
+  color: #FAF1CF;
+  text-shadow: 2px 2px black;
+}
 form {
-    margin-top: 150px;
+    margin-top: 75px;
 }
 input {
     width: 50%;

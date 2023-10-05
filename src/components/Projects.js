@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Holiday from "../images/holiday1.png";
+import Food from "../images/Food_and_Drink_Guide.png";
 import "./styles/Projects.css";
 import GlobalBeer from "../images/globalBeer1.png";
 import FoodAndDrink from "../images/Food_and_Drink_Guide.png";
@@ -19,7 +20,7 @@ import { Link, Route, Routes } from "react-router-dom";
 const Projects = () => {
   return (
     <div>
-      <h1 className="h1">Projects</h1>
+      <h1 className="h1-style">Projects</h1>
       <br></br>
       <h2>
         Welcome to the project section please browse through <FaFaceSmile />
@@ -72,6 +73,8 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <div className="flex-container">
       <Card style={{ width: "25rem" }} className="card">
         <Card.Img variant="top" src={GlobalBeer} />
         <Card.Body>
@@ -85,6 +88,35 @@ const Projects = () => {
           </Link>
         </Card.Body>
       </Card>
+      <Card style={{ width: "25rem" }} className="card">
+        <Card.Img variant="top" src={Holiday} />
+        <Card.Body>
+          <Card.Title>Holiday Experience</Card.Title>
+          <Card.Text>
+            Allows the user to update their holiday experiences, users
+            can also read other users holiday experience reviews.
+          </Card.Text>
+          <Link to="/holiday">
+            <Button variant="secondary">Holiday Experience</Button>
+          </Link>
+        </Card.Body>
+      </Card>
+      <Card style={{ width: "25rem" }} className="card">
+        <Card.Img variant="top" src={Food} />
+        <Card.Body>
+          <br></br>
+          <Card.Title>Recipe Mobile App</Card.Title>
+          <Card.Text>
+            This mobile app allows the users to browse and update recipes.
+            The user will be able to read and post up their favourite recipes.
+          </Card.Text>
+          <Link to="/recipe">
+          
+            <Button variant="secondary">Recipe App</Button>
+          </Link>
+        </Card.Body>
+      </Card>
+      </div>
     </div>
   );
 };

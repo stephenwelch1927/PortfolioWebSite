@@ -36,6 +36,20 @@
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+.icon-angular {
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 25px;
+}
+
+.icon-ionic {
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-right: 15px;
+}
+
 .git{
     margin-left: 305px;
     color: black;
@@ -43,7 +57,7 @@
 }
 .flex-container {
     display: flex;
-    margin-left: 200px;
+    margin-left: 25px;
 }
 
 .git-source-code {

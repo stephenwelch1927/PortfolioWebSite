@@ -1,7 +1,7 @@
-.h1{
+.h1-style{
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     box-shadow: 0cap;
     color: black;
 }
@@ -9,11 +9,12 @@
     height: 300px;
     width: 600px;
     align-items: center;
+    margin-right: 100px;
 }
 
 .carousel-size {
     top: 100px;
-    margin-left: 500px;
+    margin-left: 400px;
     width: 600px;
     height: 400px;
 }
@@ -24,7 +25,12 @@ h2{
 }
 
 .card {
-    display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     font-family: "Lucida Console", "Courier New", monospace; 
+}
+
+.flex-container {
+    margin-right: 150px;
+    display: flex;
+    
 }
