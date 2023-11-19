@@ -12,10 +12,10 @@ import { SiMongodb } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
 
-const Holiday = () => {
+const RegEx = () => {
   return (
     <div>
-      <h1 className="h1-style">Holiday Expereince</h1>
+      <h1 className="h1-style">Regular Expression Converter</h1>
       <br></br>
       <p className="p">
         Created this website for the purpose of holiday makers being{" "}
@@ -39,16 +39,16 @@ const Holiday = () => {
         MongoDB when query and update the data when ever we need to.
       </p>
       <br></br>
-      <div className="flex-container-hol">
-        <img className="img-hol" src={Holiday1} alt="Holiday Home" />
-        <img className="img-hol" src={Holiday2} alt="Add Form" />
-        <img className="img-hol" src={Holiday3} alt="Review Page" />
+      <div className="flex-container">
+        <img className="img" src={Holiday1} alt="Holiday Home" />
+        <img className="img" src={Holiday2} alt="Add Form" />
+        <img className="img" src={Holiday3} alt="Review Page" />
       </div>
       <br></br>
-      <div className="flex-container-hol">
-        <img className="img-hol" src={Holiday4} alt="Contact" />
-        <img className="img-hol" src={Holiday5} alt="Database" />
-        <img className="img-hol" src={Holiday6} alt="Source Code" />
+      <div className="flex-container">
+        <img className="img" src={Holiday4} alt="Contact" />
+        <img className="img" src={Holiday5} alt="Database" />
+        <img className="img" src={Holiday6} alt="Source Code" />
       </div>
       <br></br>
       <h2 className="h2-style">Technologies Used</h2>
@@ -70,4 +70,4 @@ const Holiday = () => {
   );
 };
 
-export default Holiday;
+export default RegEx;

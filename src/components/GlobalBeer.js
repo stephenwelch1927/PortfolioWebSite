@@ -44,15 +44,15 @@ const GlobalBeerSite = () => {
       <p className="p">NodeJs. We achieved our outcome using the MERN stack tech.</p>
       <br></br>
       <div className="flex-container">
-        <img className="img" src={Global4} alt="World Beers" />
-        <img className="img" src={Global2} alt="World Beers" />
-        <img className="img" src={Global3} alt="World Beers" />
+        <img className="img1" src={Global4} alt="World Beers" />
+        <img className="img1" src={Global2} alt="World Beers" />
+        <img className="img1" src={Global3} alt="World Beers" />
       </div>
       <br></br>
       <div className="flex-container">
-        <img className="img" src={Global5} alt="Check out" />
-        <img className="img" src={Global6} alt="Database" />
-        <img className="img" src={Global7} alt="Home Page" />
+        <img className="img1" src={Global5} alt="Check out" />
+        <img className="img1" src={Global6} alt="Database" />
+        <img className="img1" src={Global7} alt="Home Page" />
       </div>
       <br></br>
       <h2 className="h2-style">Technologies Used</h2>

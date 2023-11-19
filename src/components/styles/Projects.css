@@ -14,7 +14,7 @@
 
 .carousel-size {
     top: 100px;
-    margin-left: 400px;
+    margin-left: 700px;
     width: 600px;
     height: 400px;
 }
@@ -25,12 +25,11 @@ h2{
 }
 
 .card {
-    margin-left: 50px;
+    margin-left: 150px;
     font-family: "Lucida Console", "Courier New", monospace; 
 }
 
 .flex-container {
-    margin-right: 150px;
     display: flex;
     
 }

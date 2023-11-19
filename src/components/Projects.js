@@ -14,8 +14,7 @@ import MarkDown from "../images/markDown.png";
 import { FaFaceSmile } from "react-icons/fa6";
 import { GiThink } from "react-icons/gi";
 import { PiCursorClickFill } from "react-icons/pi";
-import GlobalBeerSite from "./GlobalBeer";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -31,7 +30,7 @@ const Projects = () => {
       <h2>
         Please click the mail Icon <PiCursorClickFill />
       </h2>
-
+      
       <Carousel className="carousel-size" data-bs-theme="dark">
         <Carousel.Item>
           <img className="carousel" src={Holiday} alt="Holiday Website" />
@@ -113,6 +112,24 @@ const Projects = () => {
           <Link to="/recipe">
           
             <Button variant="secondary">Recipe App</Button>
+          </Link>
+        </Card.Body>
+      </Card>
+      </div>
+      <br></br>
+      <div className="flex-container">
+      <Card style={{ width: "25rem" }} className="card">
+        <Card.Img variant="top" src={RegEx} />
+        <Card.Body>
+          <Card.Title>Regular Expression Converter</Card.Title>
+          <Card.Text>
+            A project created as part of our university development,
+            it focused on Regular expressions and how different 
+            algorithms can bring about the same outcome.
+          </Card.Text>
+          <Link to="/regEx">
+          
+            <Button variant="secondary">Reg Ex Converter</Button>
           </Link>
         </Card.Body>
       </Card>

@@ -18,14 +18,14 @@ input {
     cursor: pointer;
 }
 label {
-    margin-left: 343px;
+    margin-left: 500px;
     font-family: "Lucida Console", "Courier New", monospace; 
 }
 
 textarea {
     position: relative;
-    left: 343px;
-    width: 53%;
+    left: 500px;
+    width: 50%;
     height: 100px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -36,7 +36,7 @@ textarea {
 }
 input[type=submit] {
     background-color: #DDD3D1;
-    margin-left: 343px;
+    margin-left: 500px;
     width: 20%;
     padding: 14px 20px;
     border: none;
@@ -47,8 +47,12 @@ input[type=submit] {
   }
 
   input[type=text] {
-    margin-left: 343px;
+    margin-left: 500px;
   }
   input[type=email] {
-    margin-left: 343px;;
-  } 
+    margin-left: 500px;;
+  }
+  
+  display {
+    margin-left: -700px;
+  }

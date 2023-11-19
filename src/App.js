@@ -10,6 +10,7 @@ import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 import GlobalBeer from "./components/GlobalBeer";
 import Holiday from "./components/Holiday";
 import Recipe from "./components/Recipe";
+import RegEx from "./components/RegEx";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Route path ='/globalBeer' component={GlobalBeer} />
         <Route path ='/holiday' component={Holiday} />
         <Route path ='/recipe' component={Recipe} />
+        <Route path ='/regEx' component={RegEx} />
       </Switch>
     </Router>
   );
