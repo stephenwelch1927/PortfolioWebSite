@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/GlobalBeer.css";
+import Card from 'react-bootstrap/Card';
 import Global2 from "../images/globalBeer2.png";
 import Global3 from "../images/globalBeer3.png";
 import { FaReact } from "react-icons/fa";
@@ -15,35 +16,23 @@ import Global7 from "../images/globalBeer7.png";
 const GlobalBeerSite = () => {
   return (
     <div>
-      <h1 className="h1-style">Global Beer Website</h1>
-      <br></br>
-      <p className="p">
-        This website was created for the purpose of storing and updating{" "}
-      </p>
-      <p className="p">
+       <h1 className="h1-style">Global Beer Website</h1>
+          <Card style={{ width: '75rem' }}>
+      <Card.Body>
+        <Card.Title>Global Beer</Card.Title>
+        <Card.Text>
+        <br></br>
+        This website was created for the purpose of storing and updating
         beer stock and allowing the customer to make purchases. The site
-      </p>
-      <p className="p">
         has many different features that include a sign-in form, admin
-      </p>
-      <p className="p">
         section that would allow the user to use the site for an admin
-      </p>
-      <p className="p">
         point of view. The site has full CRUD capabilities, the data is
-      </p>
-      <p className="p">
         then stored in the database where we can access and update the
-      </p>
-      <p className="p">
         database. This site has both a Front End and Back End, we use
-      </p>
-      <p className="p">
         React JavaScript for our Front End and for our server we use
-      </p>
-      <p className="p">NodeJs. We achieved our outcome using the MERN stack tech.</p>
-      <br></br>
-      <div className="flex-container">
+        NodeJs. We achieved our outcome using the MERN stack tech.
+        </Card.Text>
+        <div className="flex-container">
         <img className="img1" src={Global4} alt="World Beers" />
         <img className="img1" src={Global2} alt="World Beers" />
         <img className="img1" src={Global3} alt="World Beers" />
@@ -55,6 +44,10 @@ const GlobalBeerSite = () => {
         <img className="img1" src={Global7} alt="Home Page" />
       </div>
       <br></br>
+        <Card.Link className="git-source-code" href="https://github.com/Walter64/Professional-Practice-Project"><BsGithub size={30}></BsGithub> Git Hub Source Code </Card.Link>
+      </Card.Body>
+    </Card>
+
       <h2 className="h2-style">Technologies Used</h2>
       <h3 className="icon">
         <FaReact size={70}></FaReact> React
@@ -69,7 +62,6 @@ const GlobalBeerSite = () => {
         <BsGithub size={70}></BsGithub> GitHub
       </h3>
       <br></br>
-      <h3 className="git-source-code">Git Hub Source Code <BsGithub size={30}></BsGithub> <a className="anchor" href="https://github.com/Walter64/Professional-Practice-Project">Global Beer Garden</a></h3>
     </div>
   );
 };
