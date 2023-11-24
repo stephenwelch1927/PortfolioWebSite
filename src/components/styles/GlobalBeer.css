@@ -43,7 +43,6 @@
 }
 .flex-container {
     display: flex;
-    margin-left: 200px;
 }
 
 .git-source-code {
@@ -62,3 +61,5 @@
 .card {
     margin-left: 300px;
 }
+
+

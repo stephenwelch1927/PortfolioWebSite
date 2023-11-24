@@ -19,7 +19,8 @@ const GlobalBeerSite = () => {
        <h1 className="h1-style">Global Beer Website</h1>
           <Card style={{ width: '75rem' }}>
       <Card.Body>
-        <Card.Title>Global Beer</Card.Title>
+        <Card.Title></Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
         <Card.Text>
         <br></br>
         This website was created for the purpose of storing and updating
@@ -62,6 +63,7 @@ const GlobalBeerSite = () => {
         <BsGithub size={70}></BsGithub> GitHub
       </h3>
       <br></br>
+
     </div>
   );
 };

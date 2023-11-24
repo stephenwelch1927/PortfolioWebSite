@@ -14,7 +14,7 @@
 
 .carousel-size {
     top: 100px;
-    margin-left: 700px;
+    margin-left: 650px;
     width: 600px;
     height: 400px;
 }
@@ -24,12 +24,14 @@ h2{
     text-align: center;
 }
 
-.card {
-    margin-left: 150px;
+.img1 {
     font-family: "Lucida Console", "Courier New", monospace; 
+    margin: 100px;
+    
 }
 
 .flex-container {
-    display: flex;
-    
+   float: right;
+   margin-right: 100px;
 }
+

@@ -30,7 +30,7 @@ const Projects = () => {
       <h2>
         Please click the mail Icon <PiCursorClickFill />
       </h2>
-      
+
       <Carousel className="carousel-size" data-bs-theme="dark">
         <Carousel.Item>
           <img className="carousel" src={Holiday} alt="Holiday Website" />
@@ -73,66 +73,51 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div className="flex-container">
-      <Card style={{ width: "25rem" }} className="card">
-        <Card.Img variant="top" src={GlobalBeer} />
-        <Card.Body>
-          <Card.Title>Global Beer Garden</Card.Title>
-          <Card.Text>
-            This website is a fully functional beer purchasing site, allows the
-            customer to browse and purchase beers from across the globe.
-          </Card.Text>
-          <Link to="/globalBeer">
-            <Button variant="secondary">Global Beer Garden</Button>
-          </Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "25rem" }} className="card">
-        <Card.Img variant="top" src={Holiday} />
-        <Card.Body>
-          <Card.Title>Holiday Experience</Card.Title>
-          <Card.Text>
-            Allows the user to update their holiday experiences, users
-            can also read other users holiday experience reviews.
-          </Card.Text>
-          <Link to="/holiday">
-            <Button variant="secondary">Holiday Experience</Button>
-          </Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "25rem" }} className="card">
-        <Card.Img variant="top" src={Food} />
-        <Card.Body>
-          <br></br>
-          <Card.Title>Recipe Mobile App</Card.Title>
-          <Card.Text>
-            This mobile app allows the users to browse and update recipes.
-            The user will be able to read and post up their favourite recipes.
-          </Card.Text>
-          <Link to="/recipe">
-          
-            <Button variant="secondary">Recipe App</Button>
-          </Link>
-        </Card.Body>
-      </Card>
-      </div>
+      <br></br>
       <br></br>
       <div className="flex-container">
-      <Card style={{ width: "25rem" }} className="card">
-        <Card.Img variant="top" src={RegEx} />
-        <Card.Body>
-          <Card.Title>Regular Expression Converter</Card.Title>
-          <Card.Text>
-            A project created as part of our university development,
-            it focused on Regular expressions and how different 
-            algorithms can bring about the same outcome.
-          </Card.Text>
-          <Link to="/regEx">
-          
-            <Button variant="secondary">Reg Ex Converter</Button>
-          </Link>
-        </Card.Body>
-      </Card>
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={GlobalBeer} />
+          <Card.Body>
+            <Card.Title>Global Beer Garden</Card.Title>
+            <Card.Text>
+              This website is a fully functional beer purchasing site, allows
+              the customer to browse and purchase beers from across the globe.
+            </Card.Text>
+            <Link to="/globalBeer">
+              <Button variant="secondary">Global Beer Garden</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={Holiday} />
+          <Card.Body>
+            <Card.Title>Holiday Experience</Card.Title>
+            <Card.Text>
+              Allows the user to update their holiday experiences, users can
+              also read other users holiday experience reviews.
+            </Card.Text>
+            <Link to="/holiday">
+              <Button variant="secondary">Holiday Experience</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </div>
+      <div className="flex-container">
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={Food} />
+          <Card.Body>
+            <br></br>
+            <Card.Title>Recipe Mobile App</Card.Title>
+            <Card.Text>
+              This mobile app allows the users to browse and update recipes. The
+              user will be able to read and post up their favourite recipes.
+            </Card.Text>
+            <Link to="/recipe">
+              <Button variant="secondary">Recipe App</Button>
+            </Link>
+          </Card.Body>
+        </Card>
       </div>
     </div>
   );
