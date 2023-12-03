@@ -54,9 +54,14 @@
 .anchor {
     color: black;
     font-family: "Lucida Console", "Courier New", monospace; 
-
-    
 }
+
+.backArrow {
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+    
 
 .card {
     margin-left: 300px;

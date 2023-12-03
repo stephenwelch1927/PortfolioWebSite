@@ -10,46 +10,41 @@ import { FaReact } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import Card from 'react-bootstrap/Card';
 
 
 const Holiday = () => {
   return (
     <div>
-      <h1 className="h1-style">Holiday Expereince</h1>
-      <br></br>
-      <p className="p">
-        Created this website for the purpose of holiday makers being{" "}
-      </p>
-      <p className="p">
+       <h1 className="h1-style">Holiday Expereince</h1>
+      <NavLink to='/projects' activeStyle>
+      <FaArrowCircleLeft className="backArrow"></FaArrowCircleLeft>
+      </NavLink>
+     
+       
+  
+          <Card style={{ width: '75rem' }} class="p-3 mb-2 bg-secondary">
+      <Card.Body>
+        <Card.Title>A Website for Holiday Reviews</Card.Title>
+        <Card.Text>
+        <br></br>
+        Created this website for the purpose of holiday makers being
         able to review and update holiday expereinces. The site has full
-      </p>
-      <p className="p">
         CRUD capabilities, the user at any time can update or remove any of
-      </p>
-      <p className="p">
         their stories. We use the MERN stack to achieve these goals, as our
-      </p>
-      <p className="p">
         front end is using React as its main code and our server side uses
-      </p>
-      <p className="p">
         NodeJs. All our data is then stored in a cloud based database called
-      </p>
-      <p className="p">
         MongoDB when query and update the data when ever we need to.
-      </p>
+      </Card.Text>
       <br></br>
-      <div className="flex-container-hol">
-        <img className="img-hol" src={Holiday1} alt="Holiday Home" />
-        <img className="img-hol" src={Holiday2} alt="Add Form" />
-        <img className="img-hol" src={Holiday3} alt="Review Page" />
-      </div>
       <br></br>
-      <div className="flex-container-hol">
-        <img className="img-hol" src={Holiday4} alt="Contact" />
-        <img className="img-hol" src={Holiday5} alt="Database" />
-        <img className="img-hol" src={Holiday6} alt="Source Code" />
-      </div>
+        <Card.Link className="git-source-code" href="https://github.com/stephenwelch1927/Data_Representation_Project"><BsGithub size={30}></BsGithub> Git Hub Source Code </Card.Link>
+      </Card.Body>
+    </Card>
+      <br></br>
+
       <br></br>
       <h2 className="h2-style">Technologies Used</h2>
       <h3 className="icon">
@@ -65,7 +60,6 @@ const Holiday = () => {
         <BsGithub size={70}></BsGithub> GitHub
       </h3>
       <br></br>
-      <h3 className="git-source-code">Git Hub Source Code <BsGithub size={30}></BsGithub> <a className="anchor" href="https://github.com/stephenwelch1927/Data_Representation_Project">Holiday Experience</a></h3>
     </div>
   );
 };

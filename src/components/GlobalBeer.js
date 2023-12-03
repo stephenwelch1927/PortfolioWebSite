@@ -1,26 +1,26 @@
 import React from "react";
 import "./styles/GlobalBeer.css";
 import Card from 'react-bootstrap/Card';
-import Global2 from "../images/globalBeer2.png";
-import Global3 from "../images/globalBeer3.png";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { FaReact } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
-import {FaHandHolding} from 'react-icons/fa';
-import Global4 from "../images/globalBeer4.png";
-import Global5 from "../images/globalBeer5.png";
-import Global6 from "../images/globalBeer6.png";
-import Global7 from "../images/globalBeer7.png";
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const GlobalBeerSite = () => {
   return (
     <div>
+      <NavLink to='/projects' activeStyle>
+      <FaArrowCircleLeft className="backArrow"></FaArrowCircleLeft>
+      </NavLink>
+     
+       
        <h1 className="h1-style">Global Beer Website</h1>
-          <Card style={{ width: '75rem' }}>
+          <Card style={{ width: '75rem' }} class="p-3 mb-2 bg-secondary">
       <Card.Body>
-        <Card.Title></Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Title>A Website for Purchasing Beers Across the Globe</Card.Title>
         <Card.Text>
         <br></br>
         This website was created for the purpose of storing and updating
@@ -33,17 +33,7 @@ const GlobalBeerSite = () => {
         React JavaScript for our Front End and for our server we use
         NodeJs. We achieved our outcome using the MERN stack tech.
         </Card.Text>
-        <div className="flex-container">
-        <img className="img1" src={Global4} alt="World Beers" />
-        <img className="img1" src={Global2} alt="World Beers" />
-        <img className="img1" src={Global3} alt="World Beers" />
-      </div>
       <br></br>
-      <div className="flex-container">
-        <img className="img1" src={Global5} alt="Check out" />
-        <img className="img1" src={Global6} alt="Database" />
-        <img className="img1" src={Global7} alt="Home Page" />
-      </div>
       <br></br>
         <Card.Link className="git-source-code" href="https://github.com/Walter64/Professional-Practice-Project"><BsGithub size={30}></BsGithub> Git Hub Source Code </Card.Link>
       </Card.Body>

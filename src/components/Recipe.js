@@ -6,40 +6,38 @@ import Food3 from '../images/food3.png';
 import {IoLogoAngular} from 'react-icons/io';
 import {SiIonic} from 'react-icons/si';
 import { BsGithub } from "react-icons/bs";
-
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import Card from 'react-bootstrap/Card';
 
 const Recipe = () => {
   return (
     <div>
       <h1 className="h1-style">Recipe Application</h1>
-      <br></br>
-      <p className="p">
+      <NavLink to='/projects' activeStyle>
+      <FaArrowCircleLeft className="backArrow"></FaArrowCircleLeft>
+      </NavLink>
+          <Card style={{ width: '75rem' }} class="p-3 mb-2 bg-secondary">
+      <Card.Body>
+        <Card.Title>A Mobile Recipe Application</Card.Title>
+        <Card.Text>
+        <br></br>
+       
        This mobile application was created as part of our introduction to
-      </p>
-      <p className="p">
-        new technologies. The technologies we used are Angular and Ionic
-      </p>
-      <p className="p">
-        for mobile application development. This project is a front end 
-      </p>
-      <p className="p">
-        project, it is user friendly with mobile users. It allows users to
-      </p>
-      <p className="p">
-        browse recipes and also to add their own personal ones. We achieved
-      </p>
-      <p className="p">
-        creating our application through using Angualr, Ionic, GitHub & an 
-      </p>
-      <p className="p">
-        intoruction into typescript.
-      </p>
+       new technologies. The technologies we used are Angular and Ionic
+       for mobile application development. This project is a front end 
+       project, it is user friendly with mobile users. It allows users to
+       browse recipes and also to add their own personal ones. We achieved
+       creating our application through using Angualr, Ionic, GitHub & an 
+       intoruction into typescript.
+      </Card.Text>
       <br></br>
-      <div className="flex-container">
-        <img className="img" src={Food1} alt="App Menu 1" />
-        <img className="img" src={Food2} alt="App Menu 2" />
-        <img className="img" src={Food3} alt="App Menu 3" />
-      </div>
+      <br></br>
+        <Card.Link className="git-source-code" href="https://github.com/stephenwelch1927/Mobile_Application_Ionic_Project"><BsGithub size={30}></BsGithub> Git Hub Source Code </Card.Link>
+      </Card.Body>
+    </Card>
+      <br></br>
+      <br></br>
       <br></br>
       <h2 className="h2-style">Technologies Used</h2>
       <h3 className="icon-angular">
@@ -52,7 +50,7 @@ const Recipe = () => {
         <BsGithub size={70}></BsGithub> GitHub
       </h3>
       <br></br>
-      <h3 className="git-source-code">Git Hub Source Code <BsGithub size={30}></BsGithub> <a className="anchor" href="https://github.com/stephenwelch1927/Mobile_Application_Ionic_Project">Recipe App</a></h3>
+    
     </div>
   );
 };
