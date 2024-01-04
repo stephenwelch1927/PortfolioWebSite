@@ -118,6 +118,19 @@ const Projects = () => {
             </Link>
           </Card.Body>
         </Card>
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={MarkDown} />
+          <Card.Body>
+            <br></br>
+            <Card.Title>Markdown Previewer</Card.Title>
+            <Card.Text>
+              App built so the user can transform normal words into markdown language.
+            </Card.Text>
+            <Link to="/markDown">
+              <Button variant="secondary">Markdown Prev</Button>
+            </Link>
+          </Card.Body>
+        </Card>
       </div>
     </div>
   );
