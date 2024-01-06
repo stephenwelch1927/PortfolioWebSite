@@ -132,6 +132,23 @@ const Projects = () => {
           </Card.Body>
         </Card>
       </div>
+      <div className="flex-container">
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={RegEx} />
+          <Card.Body>
+            <br></br>
+            <Card.Title>Regular Expression Parser</Card.Title>
+            <Card.Text>
+              Using the Python language created a command line Regular
+              expression parser, the user can input a string and then 
+              use one of the options to search for the inputted string.
+            </Card.Text>
+            <Link to="/regEx">
+              <Button variant="secondary">Reg Ex Parser</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        </div>
     </div>
   );
 };

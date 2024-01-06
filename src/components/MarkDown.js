@@ -3,8 +3,7 @@ import "./styles/GlobalBeer.css";
 import Card from 'react-bootstrap/Card';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { FaReact } from "react-icons/fa";
-import { DiNodejs } from "react-icons/di";
-import { SiMongodb } from "react-icons/si";
+import { FaGlobe } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaArrowCircleLeft } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
@@ -31,7 +30,9 @@ const MarkDown = () => {
       <br></br>
       <br></br>
         <Card.Link className="git-source-code" href="https://github.com/stephenwelch1927/Markdown-Previewer"><BsGithub size={30}></BsGithub> Git Hub Source Code</Card.Link>
-        <Card.Link href="https://64814edafb412d16c016a9bf--sweet-klepon-2b30de.netlify.app/">Web Page</Card.Link>
+        <br></br>
+        <br></br>
+        <Card.Link className="git-source-code" href="https://64814edafb412d16c016a9bf--sweet-klepon-2b30de.netlify.app/"><FaGlobe size={30}></FaGlobe> Web Page</Card.Link>
       </Card.Body>
     </Card>
 

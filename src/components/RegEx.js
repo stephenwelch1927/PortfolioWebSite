@@ -1,71 +1,50 @@
 import React from "react";
-import'./styles/Holiday.css';
-import Holiday1 from '../images/holiday1.png';
-import Holiday2 from '../images/holiday2.png';
-import Holiday3 from '../images/holiday3.png';
-import Holiday4 from '../images/holiday4.png';
-import Holiday5 from '../images/holiday5.png';
-import Holiday6 from '../images/holiday6.png';
-import { FaReact } from "react-icons/fa";
-import { DiNodejs } from "react-icons/di";
-import { SiMongodb } from "react-icons/si";
+import "./styles/Holiday.css";
+import Card from 'react-bootstrap/Card';
+import { NavLink } from "react-router-dom";
+import { FaPython } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 const RegEx = () => {
   return (
     <div>
-      <h1 className="h1-style">Regular Expression Converter</h1>
+      <NavLink to="/projects" activeStyle>
+        <FaArrowCircleLeft className="backArrow"></FaArrowCircleLeft>
+      </NavLink>
+      <h1 className="h1-style">Regular Expression Parser</h1>
+      <Card style={{ width: "75rem" }} class="p-3 mb-2 bg-secondary">
+        <Card.Body>
+          <Card.Title>A Regular Expression Parser</Card.Title>
+          <Card.Text>
+            <br></br>
+              A regular expression parser created using Python, this is 
+              a command line program. The user has 3 options to choose from,
+              one option will allow the user to input a string. The second option
+              will allow the user to then iput some letters to try to match the
+              string. The third option will then allow you to exit the application.
+          </Card.Text>
+          <br></br>
+          <br></br>
+          <Card.Link
+            className="git-source-code"
+            href="https://github.com/stephenwelch1927/graph-theory-project"
+          >
+            <BsGithub size={30}></BsGithub> Git Hub Source Code{" "}
+          </Card.Link>
+        </Card.Body>
+      </Card>
       <br></br>
-      <p className="p">
-        Created this website for the purpose of holiday makers being{" "}
-      </p>
-      <p className="p">
-        able to review and update holiday expereinces. The site has full
-      </p>
-      <p className="p">
-        CRUD capabilities, the user at any time can update or remove any of
-      </p>
-      <p className="p">
-        their stories. We use the MERN stack to achieve these goals, as our
-      </p>
-      <p className="p">
-        front end is using React as its main code and our server side uses
-      </p>
-      <p className="p">
-        NodeJs. All our data is then stored in a cloud based database called
-      </p>
-      <p className="p">
-        MongoDB when query and update the data when ever we need to.
-      </p>
-      <br></br>
-      <div className="flex-container">
-        <img className="img" src={Holiday1} alt="Holiday Home" />
-        <img className="img" src={Holiday2} alt="Add Form" />
-        <img className="img" src={Holiday3} alt="Review Page" />
-      </div>
-      <br></br>
-      <div className="flex-container">
-        <img className="img" src={Holiday4} alt="Contact" />
-        <img className="img" src={Holiday5} alt="Database" />
-        <img className="img" src={Holiday6} alt="Source Code" />
-      </div>
+
       <br></br>
       <h2 className="h2-style">Technologies Used</h2>
-      <h3 className="icon">
-        <FaReact size={70}></FaReact> React
-      </h3>
-      <h3 className="icon">
-        <DiNodejs size={70}></DiNodejs> NodeJs
-      </h3>
-      <h3 className="icon">
-        <SiMongodb size={70}></SiMongodb> MongoDB
-      </h3>
       <h3 className="icon">
         <BsGithub size={70}></BsGithub> GitHub
       </h3>
       <br></br>
-      <h3 className="git-source-code">Git Hub Source Code <BsGithub size={30}></BsGithub> <a className="anchor" href="https://github.com/stephenwelch1927/Data_Representation_Project">Holiday Experience</a></h3>
+      <h3 className="icon">
+        <FaPython size={70}></FaPython> Python
+      </h3>
     </div>
   );
 };
