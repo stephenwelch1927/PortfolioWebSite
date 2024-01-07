@@ -11,6 +11,7 @@ import Holiday from "./components/Holiday";
 import Recipe from "./components/Recipe";
 import RegEx from "./components/RegEx";
 import MarkDown from "./components/MarkDown";
+import RandomQuote from "./components/RandomQuote";
 
 import {
   Nav,
@@ -66,6 +67,7 @@ function App() {
           <Route exact path="/recipe" element={<Recipe />} />
           <Route exact path="/regEx" element={<RegEx />} />
           <Route exact path="/markDown" element={<MarkDown />} />
+          <Route exact path="randomQuote" element={<RandomQuote />} />
         </Routes>
       </Router>
     </div>

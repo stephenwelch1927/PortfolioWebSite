@@ -148,6 +148,20 @@ const Projects = () => {
             </Link>
           </Card.Body>
         </Card>
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={RandomQuote} />
+          <Card.Body>
+            <br></br>
+            <Card.Title>Random Quote Generator</Card.Title>
+            <Card.Text>
+              Created an application that makes an API call to a 
+              website, then in turn can generate a random quote.
+            </Card.Text>
+            <Link to="/randomQuote">
+              <Button variant="secondary">Random Quote</Button>
+            </Link>
+          </Card.Body>
+        </Card>
         </div>
     </div>
   );
