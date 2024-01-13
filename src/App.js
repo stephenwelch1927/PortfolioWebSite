@@ -12,6 +12,8 @@ import Recipe from "./components/Recipe";
 import RegEx from "./components/RegEx";
 import MarkDown from "./components/MarkDown";
 import RandomQuote from "./components/RandomQuote";
+import TextSimplifier from "./components/TextSimplifier";
+import PortfolioWeb from "./components/PortfolioWeb";
 
 import {
   Nav,
@@ -67,7 +69,9 @@ function App() {
           <Route exact path="/recipe" element={<Recipe />} />
           <Route exact path="/regEx" element={<RegEx />} />
           <Route exact path="/markDown" element={<MarkDown />} />
-          <Route exact path="randomQuote" element={<RandomQuote />} />
+          <Route exact path="/randomQuote" element={<RandomQuote />} />
+          <Route exact path="/textSimplifier" element={<TextSimplifier />} />
+          <Route exact path="/portfolioWeb" element={<PortfolioWeb />} />
         </Routes>
       </Router>
     </div>

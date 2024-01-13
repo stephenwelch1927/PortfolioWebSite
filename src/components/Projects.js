@@ -11,6 +11,7 @@ import RegEx from "../images/reExConv.png";
 import TextSimplifier from "../images/textSimplifier.png";
 import RandomQuote from "../images/randomQuote.png";
 import MarkDown from "../images/markDown.png";
+import Portfolio from "../images/portfolioWeb.png";
 import { FaFaceSmile } from "react-icons/fa6";
 import { GiThink } from "react-icons/gi";
 import { PiCursorClickFill } from "react-icons/pi";
@@ -162,6 +163,37 @@ const Projects = () => {
             </Link>
           </Card.Body>
         </Card>
+        </div>
+        <div className="flex-container">
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={TextSimplifier} />
+          <Card.Body>
+            <br></br>
+            <Card.Title>TextSimplifier</Card.Title>
+            <Card.Text>
+              A text Simplifier created using JAVA and making use of it Object Oriented,
+              programming capabilities.
+            </Card.Text>
+            <Link to="/textSimplifier">
+              <Button variant="secondary">Text Simplifier</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "35rem" }} className="img1">
+          <Card.Img variant="top" src={Portfolio} />
+          <Card.Body>
+            <br></br>
+            <Card.Title>Portfolio Website</Card.Title>
+            <Card.Text>
+              As you are on the current website, this was built to showcase
+              my projects.
+            </Card.Text>
+            <Link to="/portfolioWeb">
+              <Button variant="secondary">Portfolio Website</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+
         </div>
     </div>
   );

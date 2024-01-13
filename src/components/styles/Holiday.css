@@ -36,6 +36,13 @@
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+.icon2 {
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-right: 30px;
+}
+
 .git{
     margin-left: 305px;
     color: black;
