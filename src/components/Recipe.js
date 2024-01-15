@@ -29,6 +29,19 @@ const Recipe = () => {
           </Card.Text>
           <br></br>
           <br></br>
+          <div className="frame">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hhJ4Aw4k0eU?si=kXJc6LPqJ7OqUDYs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          </div>
+          <br></br>
+          <br></br>
           <Card.Link
             className="git-source-code"
             href="https://github.com/stephenwelch1927/Mobile_Application_Ionic_Project"

@@ -71,3 +71,9 @@
     font-family: "Lucida Console", "Courier New", monospace; 
     
 }
+
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
