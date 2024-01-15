@@ -35,6 +35,13 @@ const GlobalBeerSite = () => {
         </Card.Text>
       <br></br>
       <br></br>
+      <div className="frame">
+      <iframe  width="560" height="315" src="https://www.youtube.com/embed/XO02gnEq3-Y?si=goObEup3Q01nuPVR" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br></br>
+      <br></br>
         <Card.Link className="git-source-code" href="https://github.com/Walter64/Professional-Practice-Project"><BsGithub size={30}></BsGithub> Git Hub Source Code </Card.Link>
       </Card.Body>
     </Card>
