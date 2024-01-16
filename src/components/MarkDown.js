@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/GlobalBeer.css";
 import Card from "react-bootstrap/Card";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { FaReact } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";

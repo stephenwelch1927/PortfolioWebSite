@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/GlobalBeer.css";
 import Card from 'react-bootstrap/Card';
 import { FaReact } from "react-icons/fa";
-import { FaGlobe } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaArrowCircleLeft } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
