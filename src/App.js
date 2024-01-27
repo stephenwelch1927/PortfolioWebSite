@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
 import "./App.css";
 import HomePage from "./components/HomePage";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Navbar/Contact";
 import GlobalBeer from "./components/GlobalBeer";
@@ -63,6 +64,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/about" element={<About />} />
           <Route exact path="/globalBeer" element={<GlobalBeer />} />
           <Route exact path="/holiday" element={<Holiday />} />
           <Route exact path="/recipe" element={<Recipe />} />

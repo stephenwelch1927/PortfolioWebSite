@@ -1,0 +1,10 @@
+.display {
+    display: block;
+    float: right;
+    top: 200px;
+
+}
+.img {
+    border: none;
+    border-radius: 50%;
+}
