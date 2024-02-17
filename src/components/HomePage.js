@@ -10,30 +10,21 @@ const HomePage = () => {
     <div>
       <h1 className="h1-style">Stephen Welch Web Development</h1>
       <div id="frame">
-      <div id="main_image">
-      <img
-          style={{height: "600px", width: "1900px"}}
-          src={Salthill}
-          alt="Salthill"
-          
-        />
+        <div id="main_image">
+          <img
+            style={{ height: "600px", width: "1900px" }}
+            src={Salthill}
+            alt="Salthill"
+          />
         </div>
         <div id="overlay-pos">
-
-        <img
-          id="overlay_image"
-          src={Ayutthaya}
-          alt="Ayutthaya"
-   
-        />
-
+          <img id="overlay_image" src={Ayutthaya} alt="Ayutthaya" />
         </div>
         <br></br>
-        </div>
-        <div id="h1m">
-          <h1>Welcome to my Portfolio Site!</h1>
-        </div>
-
+      </div>
+      <div id="h1m">
+        <h1>Welcome to my Portfolio Site!</h1>
+      </div>
     </div>
   );
 };

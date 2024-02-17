@@ -6,3 +6,38 @@
     color: black;
 }
 
+.about {
+    float: left;
+    width: 900px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    box-shadow: 0cap;
+    font-size: 20px;
+    
+}
+
+.pic_div {
+    float: right;
+    margin-right: 200px;
+}
+
+.skills {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: #FAF1CF;;
+    box-shadow: 1cap;
+    text-shadow: 2px 2px black;
+}
+.icon {
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.icon-spacing {
+   margin-left: 200px;
+}

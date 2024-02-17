@@ -21,7 +21,7 @@ export const Linked = styled(AiOutlineLinkedin) `
     display: flex;    
     height: 75px;
     width: 75px; 
-    color: blue;
+    color: black;
     justify-content: space-between;
     &:hover {
         transition: all 0.2s ease-in-out;
