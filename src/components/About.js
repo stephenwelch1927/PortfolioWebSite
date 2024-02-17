@@ -5,6 +5,11 @@ import { FaReact } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
+import { IoLogoAngular } from "react-icons/io";
+import { SiIonic } from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
+import { FaPython } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 
 const About = () => {
   return (
@@ -30,18 +35,28 @@ const About = () => {
           <br></br>
           <br></br>
           <h1 className="skills">Skills</h1>
+          <br></br>
+          <div className="skills-dev">
           <FaReact size={100}></FaReact>
           <BsGithub className="icon-spacing" size={100}></BsGithub>
+          <IoLogoAngular className="icon-spacing" size={100}></IoLogoAngular>
+          <br></br>
           <br></br>
           <DiNodejs size={100}></DiNodejs>
+          <SiMongodb className="icon-spacing" size={100}></SiMongodb>
+          <SiIonic className="icon-spacing" size={100}></SiIonic>
           <br></br>
-          <SiMongodb size={100}></SiMongodb>
+          <br></br>
+          <FaJava size={100}></FaJava>
+          <FaPython className="icon-spacing" size={100}></FaPython>
+          <SiMysql className="icon-spacing" size={100}></SiMysql>
+          </div>
         </div>
         <div className="pic_div">
           <img
           src={RoofTop}
           alt="Roof Top Pic"
-          style={{width: "600px"}}
+          style={{width: "600px", height: "800px"}}
           ></img>
 
         </div>
