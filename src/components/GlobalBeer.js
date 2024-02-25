@@ -25,8 +25,8 @@ const GlobalBeerSite = () => {
             <br></br>
             This website was created for the purpose of storing and updating
             beer stock and allowing the customer to make purchases. The site has
-            many different features that include a sign-in form, admin section
-            that would allow the user to use the site for an admin point of
+            many different features that include a sign-in form and admin section
+            that would allow the user to use the site from an admin point of
             view. The site has full CRUD capabilities, the data is then stored
             in the database where we can access and update the database. This
             site has both a Front End and Back End, we use React JavaScript for

@@ -25,7 +25,7 @@ const Recipe = () => {
             it is user friendly with mobile users. It allows users to browse
             recipes and also to add their own personal ones. We achieved
             creating our application through using Angualr, Ionic, GitHub & an
-            intoruction into typescript.
+            introduction into typescript.
           </Card.Text>
           <br></br>
           <br></br>

@@ -21,12 +21,12 @@ const Holiday = () => {
           <Card.Text>
             <br></br>
             Created this website for the purpose of holiday makers being able to
-            review and update holiday expereinces. The site has full CRUD
+            review and update holiday experiences. The site has full CRUD
             capabilities, the user at any time can update or remove any of their
             stories. We use the MERN stack to achieve these goals, as our front
             end is using React as its main code and our server side uses NodeJs.
             All our data is then stored in a cloud based database called MongoDB
-            when query and update the data when ever we need to.
+            we can query and update the data when ever we need to.
           </Card.Text>
           <br></br>
           <br></br>

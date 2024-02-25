@@ -1,3 +1,17 @@
 .back-colour{
   background-color: #6BB77B;
 }
+
+#foot {
+  margin-top: auto;
+}
+
+#footer-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h3 {
+  text-align: center;
+}

@@ -82,7 +82,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Global Beer Garden</Card.Title>
             <Card.Text>
-              This website is a fully functional beer purchasing site, allows
+              This website is a fully functional beer purchasing site, it allows
               the customer to browse and purchase beers from across the globe.
             </Card.Text>
             <Link to="/globalBeer">
@@ -171,7 +171,7 @@ const Projects = () => {
             <br></br>
             <Card.Title>TextSimplifier</Card.Title>
             <Card.Text>
-              A text Simplifier created using JAVA and making use of it Object Oriented,
+              A text Simplifier created using JAVA and making use of its Object Oriented
               programming capabilities.
             </Card.Text>
             <Link to="/textSimplifier">

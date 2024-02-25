@@ -14,6 +14,7 @@ import MarkDown from "./components/MarkDown";
 import RandomQuote from "./components/RandomQuote";
 import TextSimplifier from "./components/TextSimplifier";
 import PortfolioWeb from "./components/PortfolioWeb";
+import {format, formatDate} from 'date-fns';
 
 import {
   Nav,
@@ -29,8 +30,14 @@ function App() {
   useEffect(() => {
     document.body.classList.add("back-colour");
   });
+
+  const current = new Date();
+  const date = `${current.getFullYear()}`;
+
+
+  
   return (
-    <div>
+    <div id="footer-layout">
       <Router>
         <Nav>
           <Bars />
@@ -74,6 +81,12 @@ function App() {
           <Route exact path="/portfolioWeb" element={<PortfolioWeb />} />
         </Routes>
       </Router>
+      
+      <footer id="foot">
+      <h3>&copy; Stephen Welch {date}</h3>
+      
+      </footer>
+     
     </div>
   );
 }

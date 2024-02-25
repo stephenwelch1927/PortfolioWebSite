@@ -22,7 +22,7 @@ const About = () => {
             development. My Passion is creating web sites to benefit people and
             improve lives. I am currently teaching, I have taught Computer
             Science to students here in Thailand which was really rewarding. I
-            taught them many concepts of web develpment and also the principles
+            taught them many concepts of web development and also the principles
             of Object Oriented Programming (OOP).
           </p>
           <p>

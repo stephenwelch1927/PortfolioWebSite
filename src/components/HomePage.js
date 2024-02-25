@@ -1,7 +1,6 @@
 import React from "react";
 import Ayutthaya from "../images/Ayutthaya.jpg";
 import Salthill from "../images/Salthill_Winter1.jpg";
-import RoofTop from "../images/roofTop2.jpg";
 import "./styles/HomePage.css";
 import "./styles/NavLayout.css";
 

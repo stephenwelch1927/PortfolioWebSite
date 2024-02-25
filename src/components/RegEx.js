@@ -20,7 +20,7 @@ const RegEx = () => {
             <br></br>A regular expression parser created using Python, this is a
             command line program. The user has 3 options to choose from, one
             option will allow the user to input a string. The second option will
-            allow the user to then iput some letters to try to match the string.
+            allow the user to then input some letters to try to match the string.
             The third option will then allow you to exit the application.
           </Card.Text>
           <br></br>

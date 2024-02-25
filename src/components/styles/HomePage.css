@@ -1,43 +1,33 @@
-
 .img {
-    border: none;
-    border-radius: 50%;
+  border: none;
+  border-radius: 50%;
 }
 
-#frame{
-    position: relative;
-
+#frame {
+  position: relative;
 }
-#main_image{
-    width: 100%;
-    height: 50%;
+#main_image {
+  width: 100%;
+  height: 50%;
 }
 #overlay-pos {
-    top: 500px;
-    position: absolute;
-    left: 650px;
+  top: 500px;
+  position: absolute;
+  left: 650px;
 }
-#overlay_image{
-    
-    
-    width: 500px;
-    height: 500px;
-    margin-right: 200px;
-    border-radius: 50%;
+#overlay_image {
+  width: 500px;
+  height: 500px;
+  margin-right: 200px;
+  border-radius: 50%;
 }
 
 #head {
-    margin-right: 500px;
-   
+  margin-right: 500px;
 }
 
 #h1m {
-    
-position: absolute;
-top: 1200px;
-left: 650px;
-
-
-
+  position: absolute;
+  top: 1200px;
+  left: 650px;
 }
-
