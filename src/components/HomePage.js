@@ -1,30 +1,40 @@
 import React from "react";
-import Ayutthaya from "../images/Ayutthaya.jpg";
 import Salthill from "../images/Salthill_Winter1.jpg";
 import "./styles/HomePage.css";
 import "./styles/NavLayout.css";
+import KeyboardIcon from '@mui/icons-material/Keyboard';
 
 const HomePage = () => {
   return (
     <div>
       <h1 className="h1-style">Stephen Welch Web Development</h1>
-      <div id="frame">
-        <div id="main_image">
-          <img
-            style={{ height: "600px", width: "1900px" }}
-            src={Salthill}
-            alt="Salthill"
-          />
-        </div>
-        <div id="overlay-pos">
-          <img id="overlay_image" src={Ayutthaya} alt="Ayutthaya" />
-        </div>
-        <br></br>
+
+      <div id="main_image">
+        <img
+          style={{ height: "600px", width: "1899px" }}
+          src={Salthill}
+          alt="Salthill"
+        />
       </div>
       <div id="h1m">
-        <h1>Welcome to my Portfolio Site!</h1>
+      <h1>Welcome to my Portfolio Site!</h1>
       </div>
-    </div>
+      <br></br>
+      <div id="h2">
+      <p className="p2">Hello!</p>
+      <p className="p3">My name is Stephen Welch</p>
+      <p className="p3">I have a passion for Web Development!</p>
+      <p className="p2">Please browse through my projects, hopefully
+      I might be able to help you. My other passions in life include 
+      sport, keeping fit, reading and listening to music. Please drop
+      me a message!
+      </p>
+      </div>
+      <div id="computer">
+        <KeyboardIcon sx={{fontSize: 270}}/>
+        </div>
+        </div>
+  
   );
 };
 

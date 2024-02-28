@@ -1,3 +1,6 @@
+#main {
+    height: 500px;
+}
 .img {
   border: none;
   border-radius: 50%;
@@ -10,24 +13,35 @@
   width: 100%;
   height: 50%;
 }
-#overlay-pos {
-  top: 500px;
-  position: absolute;
-  left: 650px;
-}
-#overlay_image {
-  width: 500px;
-  height: 500px;
-  margin-right: 200px;
-  border-radius: 50%;
-}
 
 #head {
   margin-right: 500px;
 }
 
 #h1m {
-  position: absolute;
-  top: 1200px;
-  left: 650px;
+margin-left: 625px;
+}
+
+#computer {
+    float: right;
+    margin-right: 250px;
+    bottom: 350px;
+    position: relative;
+    width: 200px;
+    height: 500px;
+   
+}
+
+#h2 {
+  margin-left: 100px;
+  width: 800px;
+  height: 500px;
+}
+
+.p2 {
+    font-size: 30px;
+}
+
+.p3 {
+    font-size: 50px;
 }
