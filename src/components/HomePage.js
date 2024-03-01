@@ -6,7 +6,7 @@ import KeyboardIcon from '@mui/icons-material/Keyboard';
 
 const HomePage = () => {
   return (
-    <div>
+    <div id="main">
       <h1 className="h1-style">Stephen Welch Web Development</h1>
 
       <div id="main_image">
