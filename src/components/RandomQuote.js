@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import { FaReact } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const RandomQuote = () => {
@@ -41,6 +42,15 @@ const RandomQuote = () => {
             href="https://github.com/stephenwelch1927/stephenwelch1927.github.io"
           >
             <BsGithub size={30}></BsGithub> Git Hub Source Code
+         
+          </Card.Link>
+          <br></br>
+          <br></br>
+          <Card.Link
+            className="git-source-code"
+            href="https://main--random-quote-gensw.netlify.app/"
+          >
+            <FaGlobe size={30}></FaGlobe> Web Page
           </Card.Link>
         </Card.Body>
       </Card>
