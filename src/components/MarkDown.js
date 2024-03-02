@@ -38,6 +38,8 @@ const MarkDown = () => {
             allowfullscreen
           ></iframe>
           </div>
+          <br></br>
+          <br></br>
           <Card.Link
             className="git-source-code"
             href="https://github.com/stephenwelch1927/Markdown-Previewer"

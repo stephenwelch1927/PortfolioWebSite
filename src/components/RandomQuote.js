@@ -37,6 +37,8 @@ const RandomQuote = () => {
             allowfullscreen
           ></iframe>
           </div>
+          <br></br>
+          <br></br>
           <Card.Link
             className="git-source-code"
             href="https://github.com/stephenwelch1927/stephenwelch1927.github.io"

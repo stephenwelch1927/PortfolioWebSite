@@ -24,6 +24,19 @@ const TextSimplifier = () => {
           </Card.Text>
           <br></br>
           <br></br>
+          <div className="frame">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/WO8VhwqylE0?si=hu2Gf50D_sc1P0cr"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <br></br>
+          <br></br>
           <Card.Link
             className="git-source-code"
             href="https://github.com/stephenwelch1927/Data-Structures-Project---Text-Simplifier"
