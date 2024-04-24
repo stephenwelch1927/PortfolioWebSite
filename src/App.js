@@ -15,6 +15,7 @@ import RandomQuote from "./components/RandomQuote";
 import TextSimplifier from "./components/TextSimplifier";
 import PortfolioWeb from "./components/PortfolioWeb";
 import {format, formatDate} from 'date-fns';
+import { useMediaQuery } from "react-responsive";
 
 import {
   Nav,

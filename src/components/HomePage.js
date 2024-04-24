@@ -11,7 +11,7 @@ const HomePage = () => {
 
       <div id="main_image">
         <img
-          style={{ height: "600px", width: "1899px" }}
+          style={{ height: "600px", width: "100%" }}
           src={Salthill}
           alt="Salthill"
         />

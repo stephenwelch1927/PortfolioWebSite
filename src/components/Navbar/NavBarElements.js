@@ -28,6 +28,11 @@ export const Linked = styled(AiOutlineLinkedin) `
         background: #fff;
         color: #808080;
       }  
+      @media screen and (max-width: 600px) {
+          float: right;
+          display: block;
+        }
+      
     
     
 `;
@@ -100,9 +105,6 @@ export const NavMenu = styled.div`
   /* Third Nav */
   /* width: 100vw;
   white-space: nowrap; */
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `;
   
   
